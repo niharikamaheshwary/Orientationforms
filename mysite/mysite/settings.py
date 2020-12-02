@@ -40,6 +40,9 @@ INSTALLED_APPS = [
     'webapp',
     'crispy_forms',
     'gsheets',
+    'mixins',
+    'uuid'
+
 ]
 
 GSHEETS = {
