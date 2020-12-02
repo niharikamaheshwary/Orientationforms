@@ -39,7 +39,14 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'webapp',
     'crispy_forms',
+    'gsheets',
 ]
+
+GSHEETS = {
+
+    'CLIENT_SECRETS': 'creds.json'
+
+}
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
